@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/App Designs/History.unity
     guid: b165a6a4c8833435888ad217553e87a0
   - enabled: 1
-    path: Assets/Scenes/App Designs/ScaneazaCub.unity
+    path: Assets/Scenes/App Designs/ScaneazaCubIstorie.unity
     guid: ee1a5e954f678444fa0a7eb5a153a037
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
