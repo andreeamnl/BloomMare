@@ -4,13 +4,9 @@
 
 ### #MadeinMD EdTech
 
-![Alege Clasa Screen](images/alege_clasa.png)
-![Alege Disciplina Screen](images/alege_disciplina.png)
-![Alege Tema Screen](images/alege_tema.png)
 
 ## Current work DEMO
 
-![DEMO](images/DEMO.gif)
 ![DEMO2](images/DEMO2.gif)
 
 
