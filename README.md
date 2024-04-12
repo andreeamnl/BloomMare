@@ -8,6 +8,12 @@
 ![Alege Disciplina Screen](images/alege_disciplina.png)
 ![Alege Tema Screen](images/alege_tema.png)
 
+## Current work DEMO
+
+
+![DEMO](images/DEMO.gif)
+
+
 ## Work In Progress (WIP)
 
 - Adding 3D figures to each AR cube scene for an immersive learning experience.
