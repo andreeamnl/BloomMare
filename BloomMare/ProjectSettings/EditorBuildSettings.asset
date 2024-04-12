@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/App Designs/AlegeSubiectul5.unity
     guid: f50a7d08af31e48a6929cff8d3b04b9d
   - enabled: 1
-    path: Assets/Scenes/App Designs/History.unity
+    path: Assets/Scenes/App Designs/History/History.unity
     guid: b165a6a4c8833435888ad217553e87a0
   - enabled: 1
-    path: Assets/Scenes/App Designs/ScaneazaCubIstorie.unity
+    path: Assets/Scenes/App Designs/History/ScaneazaEfecteleRomanizarii.unity
     guid: ee1a5e954f678444fa0a7eb5a153a037
   - enabled: 1
     path: Assets/Scenes/App Designs/ScaneazaCubGeografie.unity
@@ -29,6 +29,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/App Designs/AlegeSubiectul6.unity
     guid: 45823ec89391c408cbbe97ee8643fd2a
+  - enabled: 1
+    path: Assets/Scenes/App Designs/History/ScaneazaDacoRomanii.unity
+    guid: 55f4a8aa123ae4220871218eeca92681
+  - enabled: 1
+    path: Assets/Scenes/App Designs/History/ScaneazaDacoRomanii(3).unity
+    guid: de9ea776bb7274f4fb8012ecf07dfd44
+  - enabled: 1
+    path: Assets/Scenes/App Designs/History/ScaneazaDacoRomanii(4).unity
+    guid: c428730dd536a400d874d8b0f7cdeff9
+  - enabled: 1
+    path: Assets/Scenes/App Designs/History/ScaneazaMonedaRomana.unity
+    guid: b9502b0163ea74f5f934fe7917fe1217
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Geography/Geography.unity
+    guid: 8c0910f57b70e49ee8535e7cef3afc50
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Matematica/Maths.unity
+    guid: 75b7a528bc72c4bdc8da088f9f9ac972
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
