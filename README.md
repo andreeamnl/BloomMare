@@ -10,8 +10,8 @@
 
 ## Current work DEMO
 
-
 ![DEMO](images/DEMO.gif)
+![DEMO2](images/DEMO2.gif)
 
 
 ## Work In Progress (WIP)
