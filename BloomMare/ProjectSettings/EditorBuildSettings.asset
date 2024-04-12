@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/App Designs/AlegeClasa.unity
     guid: 8ef2e4f2787f34ad3938660153994d54
   - enabled: 1
-    path: Assets/Scenes/App Designs/AlegeSubiectul.unity
+    path: Assets/Scenes/App Designs/AlegeSubiectul5.unity
     guid: f50a7d08af31e48a6929cff8d3b04b9d
   - enabled: 1
     path: Assets/Scenes/App Designs/History.unity
@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/App Designs/ScaneazaCubMatematica.unity
     guid: 8f4ba3c7b700041c8b71881d361c6918
+  - enabled: 1
+    path: Assets/Scenes/App Designs/AlegeSubiectul6.unity
+    guid: 45823ec89391c408cbbe97ee8643fd2a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
