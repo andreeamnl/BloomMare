@@ -9,44 +9,80 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 4755b35b590504809a7525fd2109c2e2
   - enabled: 1
-    path: Assets/Scenes/App Designs/AlegeClasa.unity
+    path: Assets/Scenes/App Designs/Scenes/AlegeClasa.unity
     guid: 8ef2e4f2787f34ad3938660153994d54
   - enabled: 1
-    path: Assets/Scenes/App Designs/AlegeSubiectul5.unity
+    path: Assets/Scenes/App Designs/Scenes/AlegeSubiectul5.unity
     guid: f50a7d08af31e48a6929cff8d3b04b9d
   - enabled: 1
-    path: Assets/Scenes/App Designs/History/History.unity
+    path: Assets/Scenes/App Designs/Scenes/History/History.unity
     guid: b165a6a4c8833435888ad217553e87a0
   - enabled: 1
-    path: Assets/Scenes/App Designs/History/ScaneazaEfecteleRomanizarii.unity
+    path: Assets/Scenes/App Designs/Scenes/History/ScaneazaCoifulDacic.unity
     guid: ee1a5e954f678444fa0a7eb5a153a037
   - enabled: 1
-    path: Assets/Scenes/App Designs/ScaneazaCubGeografie.unity
+    path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaAntarctida.unity
+    guid: e1fcb4015c3d04889bc462c5342745fd
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaBalena.unity
+    guid: 11a98189199444b38a5dd1bf1281f4eb
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaElefantDeMare.unity
+    guid: 0df3766691f2a447f90ef3dff060a1a1
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaOrca.unity
+    guid: f2433a18828b343b7905ae37469babb2
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaPenguin.unity
+    guid: 40b24ea4e889549e4aa4cce70e948c21
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaUrsPolar.unity
+    guid: 7a28f8252bc4c4c18a505827bd5b5fa2
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaVulpePolara.unity
+    guid: 0f027b60b92fe4eceaf7fbb98422354a
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/ScaneazaCubGeografie.unity
     guid: bc00bcd2ca8e44d1da5d6605075c39e1
   - enabled: 1
-    path: Assets/Scenes/App Designs/ScaneazaCubMatematica.unity
+    path: Assets/Scenes/App Designs/Scenes/ScaneazaCubMatematica.unity
     guid: 8f4ba3c7b700041c8b71881d361c6918
   - enabled: 1
-    path: Assets/Scenes/App Designs/AlegeSubiectul6.unity
+    path: Assets/Scenes/App Designs/Scenes/AlegeSubiectul6.unity
     guid: 45823ec89391c408cbbe97ee8643fd2a
   - enabled: 1
-    path: Assets/Scenes/App Designs/History/ScaneazaDacoRomanii.unity
+    path: Assets/Scenes/App Designs/Scenes/History/ScaneazaFactoriiRomanizarii.unity
     guid: 55f4a8aa123ae4220871218eeca92681
   - enabled: 1
-    path: Assets/Scenes/App Designs/History/ScaneazaDacoRomanii(3).unity
+    path: Assets/Scenes/App Designs/Scenes/History/ScaneazaScut.unity
     guid: de9ea776bb7274f4fb8012ecf07dfd44
   - enabled: 1
-    path: Assets/Scenes/App Designs/History/ScaneazaDacoRomanii(4).unity
+    path: Assets/Scenes/App Designs/Scenes/History/ScaneazaApeductRoman.unity
     guid: c428730dd536a400d874d8b0f7cdeff9
   - enabled: 1
-    path: Assets/Scenes/App Designs/History/ScaneazaMonedaRomana.unity
+    path: Assets/Scenes/App Designs/Scenes/History/ScaneazaMonedaRomana.unity
     guid: b9502b0163ea74f5f934fe7917fe1217
   - enabled: 1
-    path: Assets/Scenes/App Designs/Geography/Geography.unity
+    path: Assets/Scenes/App Designs/Scenes/Geography/Geography.unity
     guid: 8c0910f57b70e49ee8535e7cef3afc50
   - enabled: 1
-    path: Assets/Scenes/App Designs/Matematica/Maths.unity
+    path: Assets/Scenes/App Designs/Scenes/Matematica/Maths.unity
     guid: 75b7a528bc72c4bdc8da088f9f9ac972
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaCilindru.unity
+    guid: 5e88dad562bcf42e4a80719e3aae8b6b
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaCon.unity
+    guid: 78f1a765081b74944806396bc45db840
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaCuboid.unity
+    guid: afba0965acae24acb917f588de9faddf
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaPiramida.unity
+    guid: 677aeaf81827f4a1dab9eeebfc431492
+  - enabled: 1
+    path: Assets/Scenes/App Designs/Scenes/History/ScaneazaUrnaCarpica.unity
+    guid: dabca63f79fa247478e12116c609969f
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
