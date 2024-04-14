@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62055
+62326
 Successfully changed project path to: /Users/anavizitiv/Documents/GitHub/BloomMare/BloomMare
 /Users/anavizitiv/Documents/GitHub/BloomMare/BloomMare
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,13 +56,13 @@ Successfully changed project path to: /Users/anavizitiv/Documents/GitHub/BloomMa
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8546016768] Host "[IP] 10.207.93.132 [Port] 0 [Flags] 2 [Guid] 2516198310 [EditorId] 2516198310 [Version] 1048832 [Id] OSXEditor(0,Anas-MacBook-Air-5.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8546016768] Host "[IP] 10.207.93.132 [Port] 0 [Flags] 2 [Guid] 1579295510 [EditorId] 1579295510 [Version] 1048832 [Id] OSXEditor(0,Anas-MacBook-Air-5.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8546016768] Host "[IP] 10.207.93.132 [Port] 0 [Flags] 2 [Guid] 2516198310 [EditorId] 2516198310 [Version] 1048832 [Id] OSXEditor(0,Anas-MacBook-Air-5.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8546016768] Host "[IP] 10.207.93.132 [Port] 0 [Flags] 2 [Guid] 1579295510 [EditorId] 1579295510 [Version] 1048832 [Id] OSXEditor(0,Anas-MacBook-Air-5.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 45.62 ms, found 7 plugins.
-Preloading 4 native plugins for Editor in 58.23 ms.
+Refreshing native plugins compatible for Editor in 52.37 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 60.79 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/anavizitiv/Documents/GitHub/BloomMare/BloomMare/Assets
@@ -76,7 +76,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56415
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -87,56 +87,56 @@ Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/Pla
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.008414 seconds.
-- Loaded All Assemblies, in  0.328 seconds
+Registered in 0.010118 seconds.
+- Loaded All Assemblies, in  0.346 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for AppleTV target not found
-objc[7976]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/AppleTVSupport/arm64/UnityEditor.iOS.Native.dylib (0x13c53c5d8) and /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x13c5645d8). One of the two will be used. Which one is undefined.
+objc[9415]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/AppleTVSupport/arm64/UnityEditor.iOS.Native.dylib (0x14357c5d8) and /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x1435a45d8). One of the two will be used. Which one is undefined.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for VisionOS target not found
 Native extension for iOS target not found
-2024-04-13 22:00:06.323 Unity[7976:16116368] [XcodeApplications] Failed to read NSDictionary from path /Contents/Info.plist
+2024-04-13 22:51:10.107 Unity[9415:16159523] [XcodeApplications] Failed to read NSDictionary from path /Contents/Info.plist
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 223 ms
+Android Extension - Scanning For ADB Devices 293 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.579 seconds
-Domain Reload Profiling: 906ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 1031ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (117ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (118ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (127ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (118ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (579ms)
+	FinalizeReload (686ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (540ms)
+		SetupLoadedEditorAssemblies (636ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (445ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (515ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (64ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,14 +144,14 @@ Domain Reload Profiling: 906ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.924 seconds
-Refreshing native plugins compatible for Editor in 8.02 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.882 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 7 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for AppleTV target not found
 Native extension for VisionOS target not found
 Native extension for iOS target not found
-2024-04-13 22:00:12.347 Unity[7976:16116368] [XcodeApplications] Failed to read NSDictionary from path /Contents/Info.plist
+2024-04-13 22:51:14.420 Unity[9415:16159523] [XcodeApplications] Failed to read NSDictionary from path /Contents/Info.plist
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -169,48 +169,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.227 seconds
-Domain Reload Profiling: 2174ms
-	BeginReloadAssembly (198ms)
+- Finished resetting the current domain, in  0.877 seconds
+Domain Reload Profiling: 1767ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (78ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
 	LoadAllAssembliesAndSetupDomain (677ms)
-		LoadAssemblies (448ms)
+		LoadAssemblies (413ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (249ms)
-			TypeCache.Refresh (212ms)
-				TypeCache.ScanAssembly (180ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1227ms)
+		AnalyzeDomain (293ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (200ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (878ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1045ms)
+		SetupLoadedEditorAssemblies (692ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (113ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (76ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (794ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (489ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 3.33 ms, found 7 plugins.
-Preloading 4 native plugins for Editor in 4.85 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 5.24 ms.
 Unloading 6878 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 206 unused Assets / (8.4 MB). Loaded Objects now: 7548.
-Memory consumption went from 278.6 MB to 270.3 MB.
-Total: 35.463417 ms (FindLiveObjects: 1.011541 ms CreateObjectMapping: 0.197833 ms MarkObjects: 28.081375 ms  DeleteObjects: 6.171000 ms)
+Unloading 206 unused Assets / (8.5 MB). Loaded Objects now: 7548.
+Memory consumption went from 278.5 MB to 270.1 MB.
+Total: 15.508125 ms (FindLiveObjects: 0.443791 ms CreateObjectMapping: 0.098292 ms MarkObjects: 9.568958 ms  DeleteObjects: 5.394834 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -227,297 +227,177 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1150182.539547 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaAntarctida.unity
-  artifactKey: Guid(e1fcb4015c3d04889bc462c5342745fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/ScaneazaAntarctida.unity using Guid(e1fcb4015c3d04889bc462c5342745fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2935e7e1888a4e6514da5dee3eccf7a3') in 0.012905 seconds
+  Time since last request: 1153243.553309 seconds.
+  path: Assets/Scenes/App Designs/Scenes/Matematica/Maths.unity
+  artifactKey: Guid(75b7a528bc72c4bdc8da088f9f9ac972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/Scenes/Matematica/Maths.unity using Guid(75b7a528bc72c4bdc8da088f9f9ac972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01433bc66e070208f17fa6b95131eae8') in 0.002938 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 335.287616 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/options.svg
-  artifactKey: Guid(df9a4d14240d34d9f90d99d28ed46a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/options.svg using Guid(df9a4d14240d34d9f90d99d28ed46a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525a5f42d0a5c24c662ba5865dbd1662') in 0.984051 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2b570f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.452 seconds
+Refreshing native plugins compatible for Editor in 6.80 ms, found 7 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+2024-04-13 22:51:37.687 Unity[9415:16159523] [XcodeApplications] Failed to read NSDictionary from path /Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.456 seconds
+Domain Reload Profiling: 1908ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.99 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 5.61 ms.
+Unloading 6743 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 165 unused Assets / (8.3 MB). Loaded Objects now: 7553.
+Memory consumption went from 268.5 MB to 260.2 MB.
+Total: 10.547750 ms (FindLiveObjects: 0.451541 ms CreateObjectMapping: 0.103875 ms MarkObjects: 6.866041 ms  DeleteObjects: 3.123459 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.730291 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/Frame.svg
-  artifactKey: Guid(ca197ff47f2784b94ac689e3877d7c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/Frame.svg using Guid(ca197ff47f2784b94ac689e3877d7c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6c97f3a71f31394ea44fa61dab82a6') in 0.009867 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 1.361312 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/Frame-1.svg
-  artifactKey: Guid(4f6fbb1286ad74a688f355ab049f6ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/Frame-1.svg using Guid(4f6fbb1286ad74a688f355ab049f6ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59efb489b4d83a9b5455eb73fb17e356') in 0.014837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 9.099395 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/Group.svg
-  artifactKey: Guid(4843ee28a0a6f4e9db38082d3ea11631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/Group.svg using Guid(4843ee28a0a6f4e9db38082d3ea11631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4de1495cdb529b6f8e04a93bac279dd') in 0.036854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 175.494266 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/chevron-left.svg
-  artifactKey: Guid(73ba9090e0f52461a956ec9bf0a9a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/chevron-left.svg using Guid(73ba9090e0f52461a956ec9bf0a9a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200dce60f481528e6585266b7608326a') in 0.037611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 14.130050 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/chevron-left.svg
-  artifactKey: Guid(73ba9090e0f52461a956ec9bf0a9a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/chevron-left.svg using Guid(73ba9090e0f52461a956ec9bf0a9a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a303a2e87827682f9c05b168c8a0fb') in 0.209289 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 128.188477 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/options.svg
-  artifactKey: Guid(df9a4d14240d34d9f90d99d28ed46a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/options.svg using Guid(df9a4d14240d34d9f90d99d28ed46a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad98c496c989434ccfce9d0c4388854b') in 0.050071 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 116.509458 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/Group.svg
-  artifactKey: Guid(4843ee28a0a6f4e9db38082d3ea11631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/Group.svg using Guid(4843ee28a0a6f4e9db38082d3ea11631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcaee5b0d0ac8d231468c15130884e6a') in 0.049336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 38.670078 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/Frame-1.svg
-  artifactKey: Guid(4f6fbb1286ad74a688f355ab049f6ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/Frame-1.svg using Guid(4f6fbb1286ad74a688f355ab049f6ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194d0b47c2f618890938a895859fcaa5') in 0.055903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 73.104939 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/Frame.svg
-  artifactKey: Guid(ca197ff47f2784b94ac689e3877d7c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/Frame.svg using Guid(ca197ff47f2784b94ac689e3877d7c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fd93938fbddbd090b3f4e38828ba5f') in 0.046147 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 184.441596 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/RRAIcon.svg
-  artifactKey: Guid(4e5623bb7eb32408da5d1d1079a05b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/RRAIcon.svg using Guid(4e5623bb7eb32408da5d1d1079a05b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3601c9378ae06693c18ec2614195d0') in 0.128985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 5.504897 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/RRAIcon.svg
-  artifactKey: Guid(4e5623bb7eb32408da5d1d1079a05b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/RRAIcon.svg using Guid(4e5623bb7eb32408da5d1d1079a05b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23672c7d858dd9adeefbf129db9e9e7c') in 0.060993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.460100 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/FormePentruButoane/RRABar.svg
-  artifactKey: Guid(153a48216af5b4a7193295eb3707308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/FormePentruButoane/RRABar.svg using Guid(153a48216af5b4a7193295eb3707308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71e15379feb2949c37fb64222e79a33') in 0.017005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 5.156040 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/FormePentruButoane/RRABar.svg
-  artifactKey: Guid(153a48216af5b4a7193295eb3707308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/FormePentruButoane/RRABar.svg using Guid(153a48216af5b4a7193295eb3707308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc6e18f83f03a04c0cdfc86ef977e53') in 0.058301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 168.291058 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/FormePentruButoane/RRABar.svg
-  artifactKey: Guid(153a48216af5b4a7193295eb3707308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/FormePentruButoane/RRABar.svg using Guid(153a48216af5b4a7193295eb3707308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1801452c362da6d7378f8ca7c46c459f') in 0.075875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 18.798754 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/FormePentruButoane/RRABar.svg
-  artifactKey: Guid(153a48216af5b4a7193295eb3707308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/FormePentruButoane/RRABar.svg using Guid(153a48216af5b4a7193295eb3707308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e97a1cea7a0dab0d4010840e296f66') in 0.070203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 305.149317 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/Cub.svg
-  artifactKey: Guid(c339c5547829f4461a8df32fc1837b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/Cub.svg using Guid(c339c5547829f4461a8df32fc1837b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21abe747c06aadac0d36a71bb4168b9') in 0.138061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 8.124782 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/Cub.svg
-  artifactKey: Guid(c339c5547829f4461a8df32fc1837b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/Cub.svg using Guid(c339c5547829f4461a8df32fc1837b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07782be15b3f6a7abebea658d29bbf63') in 0.065830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 754.384818 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/play.svg
-  artifactKey: Guid(8c32cafb3a15c4ef796d27138408e0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/play.svg using Guid(8c32cafb3a15c4ef796d27138408e0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f647e530860f440fb03c17c393e0734') in 0.195266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 5.024266 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/Icons/play.svg
-  artifactKey: Guid(8c32cafb3a15c4ef796d27138408e0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/Icons/play.svg using Guid(8c32cafb3a15c4ef796d27138408e0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7df82ba4a7d20042f71685b2394c0b') in 0.066967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 188.984623 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/FormePentruButoane/AlbRect.svg
-  artifactKey: Guid(7fa004a05c5d6429b9c63414a8590dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/FormePentruButoane/AlbRect.svg using Guid(7fa004a05c5d6429b9c63414a8590dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b775f4a779e38075a21d743eb0ac7174') in 0.100230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 4.844065 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/FormePentruButoane/AlbRect.svg
-  artifactKey: Guid(7fa004a05c5d6429b9c63414a8590dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/FormePentruButoane/AlbRect.svg using Guid(7fa004a05c5d6429b9c63414a8590dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ac8080b918cb760a22e5383a7ba80f') in 0.022789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 58.064047 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/FormePentruButoane/AlbRect.svg
-  artifactKey: Guid(7fa004a05c5d6429b9c63414a8590dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/FormePentruButoane/AlbRect.svg using Guid(7fa004a05c5d6429b9c63414a8590dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939abe8dc890f9c730f14c14ceaff350') in 0.045742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 6.934468 seconds.
-  path: Assets/Scenes/App Designs/UI_Design/FormePentruButoane/AlbRect.svg
-  artifactKey: Guid(7fa004a05c5d6429b9c63414a8590dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/UI_Design/FormePentruButoane/AlbRect.svg using Guid(7fa004a05c5d6429b9c63414a8590dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbcf6f055b360b16bf7827f3631cfee') in 0.025460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 53.737101 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaAntarctida.unity
-  artifactKey: Guid(e1fcb4015c3d04889bc462c5342745fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/ScaneazaAntarctida.unity using Guid(e1fcb4015c3d04889bc462c5342745fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027cd50cdb6f8ca4da1ac969e15e0320') in 0.018504 seconds
+  Time since last request: 352.480778 seconds.
+  path: Assets/Scenes/App Designs/Scenes/History/History.unity
+  artifactKey: Guid(b165a6a4c8833435888ad217553e87a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/Scenes/History/History.unity using Guid(b165a6a4c8833435888ad217553e87a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea50c023929f2ebaa926168c79e6097c') in 0.024452 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 45.809259 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaBalena.unity
-  artifactKey: Guid(11a98189199444b38a5dd1bf1281f4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/ScaneazaBalena.unity using Guid(11a98189199444b38a5dd1bf1281f4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849c368a307a0f3c48916c7858e3f372') in 0.009636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.003537 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaElefantDeMare.unity
-  artifactKey: Guid(0df3766691f2a447f90ef3dff060a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/ScaneazaElefantDeMare.unity using Guid(0df3766691f2a447f90ef3dff060a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd051657cd3e787170a480e6c982344a9') in 0.002765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.631387 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaOrca.unity
-  artifactKey: Guid(f2433a18828b343b7905ae37469babb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/ScaneazaOrca.unity using Guid(f2433a18828b343b7905ae37469babb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb1c5af19c7964eac03d9e3e2101fec') in 0.000743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.680021 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaPenguin.unity
-  artifactKey: Guid(40b24ea4e889549e4aa4cce70e948c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/ScaneazaPenguin.unity using Guid(40b24ea4e889549e4aa4cce70e948c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09169e9714db35373bbff01bd413872') in 0.002583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.580980 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaUrsPolar.unity
-  artifactKey: Guid(7a28f8252bc4c4c18a505827bd5b5fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/ScaneazaUrsPolar.unity using Guid(7a28f8252bc4c4c18a505827bd5b5fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2aaf87103a10f1066e95e2b7a0ea4d') in 0.001383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.698025 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaVulpePolara.unity
-  artifactKey: Guid(0f027b60b92fe4eceaf7fbb98422354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Geography/ScaneazaVulpePolara.unity using Guid(0f027b60b92fe4eceaf7fbb98422354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951616cb92514d39e5778647d1a9fd0e') in 0.001010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 28.726232 seconds.
-  path: Assets/Scenes/App Designs/Scenes/History/ScaneazaFactoriiRomanizarii.unity
-  artifactKey: Guid(55f4a8aa123ae4220871218eeca92681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/History/ScaneazaFactoriiRomanizarii.unity using Guid(55f4a8aa123ae4220871218eeca92681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35b9d98ec028fdc3ac133fe002d6c7d') in 0.001965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 35.490893 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaCuboid.unity
-  artifactKey: Guid(afba0965acae24acb917f588de9faddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaCuboid.unity using Guid(afba0965acae24acb917f588de9faddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25f6182bfb75ac000df7592c8237adb') in 0.001716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.373771 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaCon.unity
-  artifactKey: Guid(78f1a765081b74944806396bc45db840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaCon.unity using Guid(78f1a765081b74944806396bc45db840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79a1cacedfa06cb94a7f71e1e895bcf') in 0.002058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.620745 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaCilindru.unity
-  artifactKey: Guid(5e88dad562bcf42e4a80719e3aae8b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaCilindru.unity using Guid(5e88dad562bcf42e4a80719e3aae8b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac6d71ebf90adf850f10b944483b09b') in 0.001598 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.710124 seconds.
-  path: Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaPiramida.unity
-  artifactKey: Guid(677aeaf81827f4a1dab9eeebfc431492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/App Designs/Scenes/Matematica/ScaneazaPiramida.unity using Guid(677aeaf81827f4a1dab9eeebfc431492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817927fc3ff6eb3e32dae99c2b09655f') in 0.000836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f8e3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.330 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 7 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+2024-04-13 22:57:48.912 Unity[9415:16159523] [XcodeApplications] Failed to read NSDictionary from path /Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.483 seconds
+Domain Reload Profiling: 1813ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1484ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.80 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 4.70 ms.
+Unloading 6743 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 165 unused Assets / (8.4 MB). Loaded Objects now: 7558.
+Memory consumption went from 279.9 MB to 271.5 MB.
+Total: 22.740250 ms (FindLiveObjects: 1.616667 ms CreateObjectMapping: 0.501000 ms MarkObjects: 15.939417 ms  DeleteObjects: 4.677375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
