@@ -7,7 +7,7 @@
 
 ## Current work DEMO
 
-![DEMO2](images/DEMO2.gif)
+![DEMO2](images/DEMO3.gif)
 
 
 ## Work In Progress (WIP)
