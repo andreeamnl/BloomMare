@@ -222,3 +222,840 @@ Received Import Request.
 Start importing Assets/Scenes/App Designs/Scenes/Geography/ScaneazaOrca.unity using Guid(f2433a18828b343b7905ae37469babb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a55982e1753465859a0c3571661d3f') in 0.000313 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x345b8f000 may have been prematurely finalized
+- Loaded All Assemblies, in  1.189 seconds
+Refreshing native plugins compatible for Editor in 9.53 ms, found 7 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.160 seconds
+Domain Reload Profiling: 4351ms
+	BeginReloadAssembly (549ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (289ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (528ms)
+		LoadAssemblies (619ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (3161ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1086ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (813ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 19.85 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 13.57 ms.
+Unloading 6691 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.6 MB). Loaded Objects now: 7607.
+Memory consumption went from 263.2 MB to 259.6 MB.
+Total: 40.300958 ms (FindLiveObjects: 1.434333 ms CreateObjectMapping: 0.457958 ms MarkObjects: 31.353542 ms  DeleteObjects: 7.047250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x313f47000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.583 seconds
+Refreshing native plugins compatible for Editor in 4.09 ms, found 7 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.457 seconds
+Domain Reload Profiling: 3043ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (350ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2460ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1149ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (26ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (789ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 12.91 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 11.79 ms.
+Unloading 6691 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.5 MB). Loaded Objects now: 7612.
+Memory consumption went from 272.1 MB to 268.6 MB.
+Total: 60.661542 ms (FindLiveObjects: 3.360833 ms CreateObjectMapping: 0.674583 ms MarkObjects: 35.204541 ms  DeleteObjects: 21.420500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x313947000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.558 seconds
+Refreshing native plugins compatible for Editor in 7.15 ms, found 7 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.873 seconds
+Domain Reload Profiling: 3433ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2875ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1335ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (911ms)
+			ProcessInitializeOnLoadMethodAttributes (179ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 30.47 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 16.32 ms.
+Unloading 6691 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.5 MB). Loaded Objects now: 7617.
+Memory consumption went from 281.1 MB to 277.6 MB.
+Total: 57.512709 ms (FindLiveObjects: 3.976458 ms CreateObjectMapping: 1.103041 ms MarkObjects: 38.735875 ms  DeleteObjects: 13.687792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5285.453457 seconds.
+  path: Assets/Resources/VuforiaModels/VuforiaMars_ModelTarget/VuforiaMars_ModelTarget/Materials/default--constant-color0.mat
+  artifactKey: Guid(6623aae5ce07e45a286d522b0b2bd8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/VuforiaMars_ModelTarget/VuforiaMars_ModelTarget/Materials/default--constant-color0.mat using Guid(6623aae5ce07e45a286d522b0b2bd8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816e0456fb86e90a0b527491962b29c6') in 1.810151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-Black.ttf
+  artifactKey: Guid(09a302804fd9f4569960bf668f5b5c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-Black.ttf using Guid(09a302804fd9f4569960bf668f5b5c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a077796a9aa767edddad0edc6d8833e') in 0.084376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Resources/VuforiaModels/Octahedron/Octahedron/Materials/DepthContourLine_URP.asset
+  artifactKey: Guid(bdeb79d83bbd543a2a31b378af8b33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Octahedron/Octahedron/Materials/DepthContourLine_URP.asset using Guid(bdeb79d83bbd543a2a31b378af8b33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2f55305f6f1c01e933c421e28036b2') in 0.042052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-700-bold-italic.otf
+  artifactKey: Guid(544110649ac5143bb9783b10eff5740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-700-bold-italic.otf using Guid(544110649ac5143bb9783b10eff5740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb69dbf745569d93c4916ac400277968') in 0.022031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/TextMesh Pro/Fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf
+  artifactKey: Guid(333bb97b273014548940694e9d2008cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf using Guid(333bb97b273014548940694e9d2008cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83de5903e1d664132759f8396e348e18') in 0.018584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-900-black-italic.otf
+  artifactKey: Guid(cc374510d1bf94d3eae4ddfdab5fd474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-900-black-italic.otf using Guid(cc374510d1bf94d3eae4ddfdab5fd474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2981d9d9ff867391b5e90db18e71d7f9') in 0.014374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/TextMesh Pro/Fonts/Poppins/Poppins-ThinItalic.ttf
+  artifactKey: Guid(49f53346d516f4006a882bc24866ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Poppins/Poppins-ThinItalic.ttf using Guid(49f53346d516f4006a882bc24866ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76965e68bbb957d0e77d1187e3f1e66c') in 0.014554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-MediumItalic.ttf
+  artifactKey: Guid(5170b585b5c814de9be04a7cc610e103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-MediumItalic.ttf using Guid(5170b585b5c814de9be04a7cc610e103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28100621a182f485bd8c54c903ef535') in 0.014502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/TextMesh Pro/Fonts/Satoshi-Regular.otf
+  artifactKey: Guid(60253420686044c6eb1f4d6f25a05340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Satoshi-Regular.otf using Guid(60253420686044c6eb1f4d6f25a05340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3b5243696c0a2e1dc45d3c58baa6dd') in 0.015717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/TextMesh Pro/Fonts/Poppins/Poppins-BlackItalic.ttf
+  artifactKey: Guid(bb5d8a3fc7372430c9ad7b75dc6f86dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Poppins/Poppins-BlackItalic.ttf using Guid(bb5d8a3fc7372430c9ad7b75dc6f86dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba4cfd6d1c032fcf2bdb2e839447315') in 0.013889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-300-light-italic.otf
+  artifactKey: Guid(485fd679fd40443269096317de73caba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-300-light-italic.otf using Guid(485fd679fd40443269096317de73caba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004fbbe0372c57ac0b29957bb7e839bc') in 0.012960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-900-black.otf
+  artifactKey: Guid(36e8f504f4c1a40acb6cdad31cdda5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-900-black.otf using Guid(36e8f504f4c1a40acb6cdad31cdda5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a4dfebf93500c82f687a1e57a398c6') in 0.012108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-300-light.otf
+  artifactKey: Guid(8f4e381aaf9b3482981a0950332850c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-300-light.otf using Guid(8f4e381aaf9b3482981a0950332850c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f41b4d7912981e3f072627bb3ef9005') in 0.013653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/TextMesh Pro/Fonts/Poppins/Poppins-ExtraLightItalic.ttf
+  artifactKey: Guid(d1ae6b25d359344c7a9d86f6d56af59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Poppins/Poppins-ExtraLightItalic.ttf using Guid(d1ae6b25d359344c7a9d86f6d56af59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72602d7f164a31c9c23eb0f4020d2e84') in 0.011954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/TextMesh Pro/Fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraLightItalic.ttf
+  artifactKey: Guid(64814350165ae4f79b65798f7cb60a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraLightItalic.ttf using Guid(64814350165ae4f79b65798f7cb60a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9de387e2211a9a699460dfeaf8b9c7') in 0.013508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-100-thin.otf
+  artifactKey: Guid(02946d20eb28f436a9408d3e671be36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-100-thin.otf using Guid(02946d20eb28f436a9408d3e671be36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884784ef8f8eb092e1805598e3d47252') in 0.019685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.001713 seconds.
+  path: Assets/TextMesh Pro/Fonts/Poppins/Poppins-Medium.ttf
+  artifactKey: Guid(0eaa2367378b84af2966533e658311a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Poppins/Poppins-Medium.ttf using Guid(0eaa2367378b84af2966533e658311a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3555cdfad7ddecbc278364c9fe646b44') in 0.014450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/TextMesh Pro/Fonts/Noto_Sans/static/NotoSans_SemiCondensed-LightItalic.ttf
+  artifactKey: Guid(8f917324226554724be7c38ed7bcda2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Noto_Sans/static/NotoSans_SemiCondensed-LightItalic.ttf using Guid(8f917324226554724be7c38ed7bcda2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac2781e28b299bd3bf27464209a4f9e') in 0.017036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/coolvetica/coolvetica rg it.otf
+  artifactKey: Guid(44c712d95528d453fa01b34b62824a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/coolvetica/coolvetica rg it.otf using Guid(44c712d95528d453fa01b34b62824a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484727ec7920cb3632baf0310d291e2c') in 0.014064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-400-regular.otf
+  artifactKey: Guid(e3e34e2c3691b4361a5a7ee31578be64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-400-regular.otf using Guid(e3e34e2c3691b4361a5a7ee31578be64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcac8922d077ffe730eedb1b8770841') in 0.012528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/TextMesh Pro/Fonts/Poppins/Poppins-Bold.ttf
+  artifactKey: Guid(5cb50bffdc0564893b5bcbb1115652e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Poppins/Poppins-Bold.ttf using Guid(5cb50bffdc0564893b5bcbb1115652e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e398ff33969064a0bc6ce9cdfa549e') in 0.016140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-400-regular-italic.otf
+  artifactKey: Guid(e1042026187b74707a2cf281f88f63e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-400-regular-italic.otf using Guid(e1042026187b74707a2cf281f88f63e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5a7fc74c7c44689d21f8edf5cc894c') in 0.012078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-BoldItalic.ttf
+  artifactKey: Guid(4fd4c0a3f4ab0427797785a62877ba23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-BoldItalic.ttf using Guid(4fd4c0a3f4ab0427797785a62877ba23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c810a4cff545a6c03ae5b2f355efef21') in 0.014226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-100-thin-italic.otf
+  artifactKey: Guid(abfd2a373cc8a49ac88d6d300bb526c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-100-thin-italic.otf using Guid(abfd2a373cc8a49ac88d6d300bb526c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d78a0b24b876a875d9bacc36620978') in 0.011600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Resources/VuforiaModels/VuforiaMars_ModelTarget/VuforiaMars_ModelTarget/Materials/DepthContourMask_URP.asset
+  artifactKey: Guid(266d24fc4988348ae89937b60bed5778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/VuforiaMars_ModelTarget/VuforiaMars_ModelTarget/Materials/DepthContourMask_URP.asset using Guid(266d24fc4988348ae89937b60bed5778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b818d92ce55fffa20eff69528ee40492') in 0.023870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-500-medium.otf
+  artifactKey: Guid(f59be40828d6e4d2f8494c8d9c4886d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-500-medium.otf using Guid(f59be40828d6e4d2f8494c8d9c4886d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c5a2f643ec9010d15f3ad7fdc8e107') in 0.016479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-Regular.ttf
+  artifactKey: Guid(ab1aee0c0c399482896358142404f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-Regular.ttf using Guid(ab1aee0c0c399482896358142404f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecb2402afcca9ce9813e77319310f48') in 0.013340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/coolvetica/coolvetica compressed hv.otf
+  artifactKey: Guid(faa017f8621ca42179435e5868b8432b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/coolvetica/coolvetica compressed hv.otf using Guid(faa017f8621ca42179435e5868b8432b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccad25a973facf2f5a19b415bb0e4c9') in 0.015592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/TextMesh Pro/Fonts/Poppins/Poppins-SemiBoldItalic.ttf
+  artifactKey: Guid(58a20f3da80754e7f95727991cbaf3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Poppins/Poppins-SemiBoldItalic.ttf using Guid(58a20f3da80754e7f95727991cbaf3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ec1e942bfeb0be7e8ab8e3bee76ef8') in 0.014827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/TextMesh Pro/Fonts/Noto_Sans/static/NotoSans_SemiCondensed-Thin.ttf
+  artifactKey: Guid(d6cf5bf4e17344b6793c15d57ce238c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Noto_Sans/static/NotoSans_SemiCondensed-Thin.ttf using Guid(d6cf5bf4e17344b6793c15d57ce238c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920935684790f349373ef92e20e6f99d') in 0.016363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resources/VuforiaModels/Octahedron/Octahedron/Materials/DepthContourMask_URP.asset
+  artifactKey: Guid(485cd6a11969a4b36880b745d4c3942d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Octahedron/Octahedron/Materials/DepthContourMask_URP.asset using Guid(485cd6a11969a4b36880b745d4c3942d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9090800a94fd8026ddef9e6c8fe9e8e6') in 0.010533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-Bold.ttf
+  artifactKey: Guid(08ebc50104c7540249a5d89fb8da97c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-Bold.ttf using Guid(08ebc50104c7540249a5d89fb8da97c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024b43b8c8d504903e374302fe0db005') in 0.013134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/TextMesh Pro/Fonts/Poppins/Poppins-Italic.ttf
+  artifactKey: Guid(c32d79a8396e549d0b1752bd695cde77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Poppins/Poppins-Italic.ttf using Guid(c32d79a8396e549d0b1752bd695cde77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3083731c4db8a24ad3cab73617b0f3b') in 0.013741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/TextMesh Pro/Fonts/Poppins/Poppins-MediumItalic.ttf
+  artifactKey: Guid(b4495410c1d794999876d5509147d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Poppins/Poppins-MediumItalic.ttf using Guid(b4495410c1d794999876d5509147d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a894933f1af2a93f54d817fa2f8ebe') in 0.012916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/TextMesh Pro/Fonts/Noto_Sans/static/NotoSans_SemiCondensed-Italic.ttf
+  artifactKey: Guid(b86145c0e12864073bd8a500e4f36369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Noto_Sans/static/NotoSans_SemiCondensed-Italic.ttf using Guid(b86145c0e12864073bd8a500e4f36369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dd1090ec11c3a0149f845119d29e53') in 0.017167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-BlackItalic.ttf
+  artifactKey: Guid(ace599ec69ead487fa52ada3b3db0fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Rubik/static/Rubik-BlackItalic.ttf using Guid(ace599ec69ead487fa52ada3b3db0fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a611bae6326e9e6fe55c0fd1db5a894f') in 0.012839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-700-bold.otf
+  artifactKey: Guid(cb00300190663499492d67c3725414da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-700-bold.otf using Guid(cb00300190663499492d67c3725414da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e9033ee2d2675215aeeb6ea79fc2be') in 0.011743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1279.545143 seconds.
+  path: Assets/Scenes/App Designs/ImaginiVictor/Balanta.png
+  artifactKey: Guid(cb3334347aa694e56bde96b0e76dd005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/ImaginiVictor/Balanta.png using Guid(cb3334347aa694e56bde96b0e76dd005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603ea1144badfbcab56c497ef15645e3') in 0.422158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Scenes/App Designs/ImaginiVictor/Coif helmet roughness map.png
+  artifactKey: Guid(5b5cd5169d0fb4726b1b924236b6b7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/ImaginiVictor/Coif helmet roughness map.png using Guid(5b5cd5169d0fb4726b1b924236b6b7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a52ef8bec68fa767295fca28b06d503') in 0.024728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Scenes/App Designs/ImaginiVictor/papyrus script alpha map1.png
+  artifactKey: Guid(c500edc6507d04d1f8138240a7806403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/ImaginiVictor/papyrus script alpha map1.png using Guid(c500edc6507d04d1f8138240a7806403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8ef8dcad6907d1883fd56cbaf7f660') in 0.013596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Scenes/App Designs/ImaginiVictor/Coif helmet normal map.png
+  artifactKey: Guid(9b2afc0d2c7e84f42b5e00067214caff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/ImaginiVictor/Coif helmet normal map.png using Guid(9b2afc0d2c7e84f42b5e00067214caff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0d8a412f474989f2ee01503549ba93') in 0.018045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Scenes/App Designs/ImaginiVictor/Coif helmet albedo.png
+  artifactKey: Guid(c4d9ecc61564348f6814b813aabd5027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/ImaginiVictor/Coif helmet albedo.png using Guid(c4d9ecc61564348f6814b813aabd5027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f376b16820ea3effc8b248edcd17ca') in 0.024066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Scenes/App Designs/ImaginiVictor/Papyrus script1.png
+  artifactKey: Guid(5eb103cc84d8b4756a6c6172cc5edb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/ImaginiVictor/Papyrus script1.png using Guid(5eb103cc84d8b4756a6c6172cc5edb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b93a582a253eee66786fdc6c1c00008') in 0.011478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 142.054467 seconds.
+  path: Assets/Scenes/App Designs/ImaginiVictor/Materials/Coif helmet.003.mat
+  artifactKey: Guid(34f28d11a8f0943cd8c94209f4ebfc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/ImaginiVictor/Materials/Coif helmet.003.mat using Guid(34f28d11a8f0943cd8c94209f4ebfc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9865d3df15154feec637607e39c656cc') in 0.282495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.116028 seconds.
+  path: Assets/Scenes/App Designs/UI_Design/Fundaluri/3D_Previews/Aqueduct preview1.png
+  artifactKey: Guid(124ba40eb07fb4be99d8cb2d9a749a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/UI_Design/Fundaluri/3D_Previews/Aqueduct preview1.png using Guid(124ba40eb07fb4be99d8cb2d9a749a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3baa9151428714c2a6290baf95f3c6') in 0.163897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Scenes/App Designs/UI_Design/Icons/chevron-left.svg
+  artifactKey: Guid(73ba9090e0f52461a956ec9bf0a9a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/UI_Design/Icons/chevron-left.svg using Guid(73ba9090e0f52461a956ec9bf0a9a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e30499938f13701b1ba1bfbbeff1243') in 0.044014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Scenes/App Designs/UI_Design/Fundaluri/wetransfer_maths-004-png_2024-04-15_2033/Coins.png
+  artifactKey: Guid(ba53b800d314543408bbe9ed702f2955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/UI_Design/Fundaluri/wetransfer_maths-004-png_2024-04-15_2033/Coins.png using Guid(ba53b800d314543408bbe9ed702f2955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9302548056223bfcce81057f53cd1388') in 0.014955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg
+  artifactKey: Guid(3b3cf30ab7479fc45a6362fc4cb5e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg using Guid(3b3cf30ab7479fc45a6362fc4cb5e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0beb74c2606d0ef843973d1e0e3fa96e') in 0.028706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Scenes/App Designs/UI_Design/Icons/Cub.svg
+  artifactKey: Guid(c339c5547829f4461a8df32fc1837b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/UI_Design/Icons/Cub.svg using Guid(c339c5547829f4461a8df32fc1837b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a650a7e7b2e06f6d72ad195077defe') in 0.016425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Scenes/App Designs/UI_Design/Fundaluri/clasa 5.6.png
+  artifactKey: Guid(119ef805cfaee45deb227ad12b5b52f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/UI_Design/Fundaluri/clasa 5.6.png using Guid(119ef805cfaee45deb227ad12b5b52f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226d5477521d351bdb06e85626d9b338') in 0.020546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ar_cube/cube.Right_scaled.jpg
+  artifactKey: Guid(18fd4b688db446068a733510e6f1bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ar_cube/cube.Right_scaled.jpg using Guid(18fd4b688db446068a733510e6f1bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f33dff5508f7ea9ed94cf95ae1553d6') in 0.014491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001100 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaEmulator/emulator_ground_plane_scaled.jpg
+  artifactKey: Guid(d28f7a8a9b3dfff44bb6faf80929212b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaEmulator/emulator_ground_plane_scaled.jpg using Guid(d28f7a8a9b3dfff44bb6faf80929212b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b052f3763e4c8392c36d0bda6220777') in 0.013893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ar_cube/cube.Top_scaled.jpg
+  artifactKey: Guid(14802aaa06614829a3223b4acf8e752a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ar_cube/cube.Top_scaled.jpg using Guid(14802aaa06614829a3223b4acf8e752a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafbf13790a2b734908d46db2c36dde5') in 0.014886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001372 seconds.
+  path: Assets/Scenes/App Designs/UI_Design/Fundaluri/clasa 5.5.png
+  artifactKey: Guid(d3f4feb6f94c7494bb99817e3f21aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/UI_Design/Fundaluri/clasa 5.5.png using Guid(d3f4feb6f94c7494bb99817e3f21aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8710a842f9fe1518deba8675aa6fcf4') in 0.027313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Scenes/App Designs/UI_Design/Fundaluri/clasa 6.6.png
+  artifactKey: Guid(6378f9d81183843cd836e83a35617ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/UI_Design/Fundaluri/clasa 6.6.png using Guid(6378f9d81183843cd836e83a35617ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fb51734aca5ba53a0beec0f4a2153c') in 0.022482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Scenes/App Designs/UI_Design/Icons/FataLogo.png
+  artifactKey: Guid(6de72a6b4a6cb42c0bda863f11faea28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/UI_Design/Icons/FataLogo.png using Guid(6de72a6b4a6cb42c0bda863f11faea28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588bddfd638980e7be56f710d257e6e1') in 0.019622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x313aa7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.988 seconds
+Refreshing native plugins compatible for Editor in 5.21 ms, found 7 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.589 seconds
+Domain Reload Profiling: 4594ms
+	BeginReloadAssembly (340ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (155ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (574ms)
+		LoadAssemblies (580ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (72ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (43ms)
+	FinalizeReload (3590ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (1003ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 21.03 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 22.49 ms.
+Unloading 6691 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.6 MB). Loaded Objects now: 7722.
+Memory consumption went from 293.9 MB to 290.3 MB.
+Total: 23.794625 ms (FindLiveObjects: 1.457250 ms CreateObjectMapping: 0.358792 ms MarkObjects: 18.043292 ms  DeleteObjects: 3.926167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x313947000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 7 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.850 seconds
+Domain Reload Profiling: 3432ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (942ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 15.38 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 13.37 ms.
+Unloading 6691 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.5 MB). Loaded Objects now: 7727.
+Memory consumption went from 302.8 MB to 299.2 MB.
+Total: 17.075541 ms (FindLiveObjects: 1.071208 ms CreateObjectMapping: 0.224792 ms MarkObjects: 12.390291 ms  DeleteObjects: 3.387916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1862.448967 seconds.
+  path: Assets/TextMesh Pro/Fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraLight.ttf
+  artifactKey: Guid(9c83ab531b27646c19cf290904f5999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraLight.ttf using Guid(9c83ab531b27646c19cf290904f5999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfafc638a79a4cdcd932315e8679998b') in 1.691726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 464.017837 seconds.
+  path: Assets/Scenes/App Designs/ImaginiVictor/Cone.fbx
+  artifactKey: Guid(d9d6d79330e734f3abe7426ae41bf7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/ImaginiVictor/Cone.fbx using Guid(d9d6d79330e734f3abe7426ae41bf7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4e99af3858ea9071fc1a7d3aa597e8') in 1.108414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Scenes/App Designs/ImaginiVictor/CUBE1.fbx
+  artifactKey: Guid(043b66532ceb04f6595d151e498196c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/ImaginiVictor/CUBE1.fbx using Guid(043b66532ceb04f6595d151e498196c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0908ff66150ff7f590ecb6428936b9e') in 0.073587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
