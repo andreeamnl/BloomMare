@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v6.2.15">
+        <ModelTarget name="Tetrahedronscaled" targetId="06add85494dd4bf98532cb417de3bc4c" version="13.0" toolVersion="v6.2.15" bbox="-0.037283 -0.052639 -0.037270 0.037270 0.052639 0.037283" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="Tetrahedronscaled" assemblyId="fb5536535b7a440c904d6dac34104588">
+        <Part name="Tetrahedronscaled" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>
