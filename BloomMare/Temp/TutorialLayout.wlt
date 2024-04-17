@@ -456,7 +456,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: /Applications/GitHub/BloomMare/BloomMare
+  m_LastProjectPath: /Users/anavizitiv/Documents/GitHub/BloomMare/BloomMare
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
