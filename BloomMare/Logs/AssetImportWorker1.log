@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55630
+62845
 Successfully changed project path to: /Applications/GitHub/BloomMare/BloomMare
 /Applications/GitHub/BloomMare/BloomMare
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,13 +56,13 @@ Successfully changed project path to: /Applications/GitHub/BloomMare/BloomMare
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8537356992] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 1529342875 [EditorId] 1529342875 [Version] 1048832 [Id] OSXEditor(0,Andreeas-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8537356992] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 237321729 [EditorId] 237321729 [Version] 1048832 [Id] OSXEditor(0,Andreeas-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8537356992] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 1529342875 [EditorId] 1529342875 [Version] 1048832 [Id] OSXEditor(0,Andreeas-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8537356992] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 237321729 [EditorId] 237321729 [Version] 1048832 [Id] OSXEditor(0,Andreeas-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 35.96 ms, found 7 plugins.
-Preloading 4 native plugins for Editor in 93.18 ms.
+Refreshing native plugins compatible for Editor in 59.42 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 143.83 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Applications/GitHub/BloomMare/BloomMare/Assets
@@ -76,47 +76,47 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56491
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56838
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004518 seconds.
-- Loaded All Assemblies, in  0.613 seconds
+Registered in 0.008361 seconds.
+- Loaded All Assemblies, in  0.860 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 356 ms
+Android Extension - Scanning For ADB Devices 530 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.788 seconds
-Domain Reload Profiling: 1403ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  1.306 seconds
+Domain Reload Profiling: 2166ms
+	BeginReloadAssembly (234ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (274ms)
-		LoadAssemblies (177ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (96ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (236ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (268ms)
-			TypeCache.Refresh (265ms)
-				TypeCache.ScanAssembly (214ms)
+		AnalyzeDomain (378ms)
+			TypeCache.Refresh (376ms)
+				TypeCache.ScanAssembly (346ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (789ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1306ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (701ms)
+		SetupLoadedEditorAssemblies (1184ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (527ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (808ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (132ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,8 +124,8 @@ Domain Reload Profiling: 1403ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.551 seconds
-Refreshing native plugins compatible for Editor in 4.54 ms, found 7 plugins.
+- Loaded All Assemblies, in  2.168 seconds
+Refreshing native plugins compatible for Editor in 17.53 ms, found 7 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -142,49 +142,298 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.046 seconds
-Domain Reload Profiling: 2637ms
-	BeginReloadAssembly (299ms)
+- Finished resetting the current domain, in  2.323 seconds
+Domain Reload Profiling: 4531ms
+	BeginReloadAssembly (422ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (28ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (91ms)
-	LoadAllAssembliesAndSetupDomain (1120ms)
-		LoadAssemblies (673ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (1572ms)
+		LoadAssemblies (897ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (501ms)
-			TypeCache.Refresh (425ms)
-				TypeCache.ScanAssembly (392ms)
-			ScanForSourceGeneratedMonoScriptInfo (47ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1047ms)
+		AnalyzeDomain (806ms)
+			TypeCache.Refresh (673ms)
+				TypeCache.ScanAssembly (602ms)
+			ScanForSourceGeneratedMonoScriptInfo (81ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (2323ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (796ms)
+		SetupLoadedEditorAssemblies (1743ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (551ms)
-			ProcessInitializeOnLoadMethodAttributes (126ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (1296ms)
+			ProcessInitializeOnLoadMethodAttributes (186ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.58 seconds
-Refreshing native plugins compatible for Editor in 2.94 ms, found 7 plugins.
-Preloading 4 native plugins for Editor in 35.85 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
+Refreshing native plugins compatible for Editor in 10.45 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 55.93 ms.
 Unloading 6880 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 151 unused Assets / (3.6 MB). Loaded Objects now: 7605.
-Memory consumption went from 288.5 MB to 284.9 MB.
-Total: 40.869458 ms (FindLiveObjects: 3.040709 ms CreateObjectMapping: 0.366584 ms MarkObjects: 33.196291 ms  DeleteObjects: 4.263750 ms)
+Unloading 153 unused Assets / (3.5 MB). Loaded Objects now: 7603.
+Memory consumption went from 283.2 MB to 279.7 MB.
+Total: 74.079167 ms (FindLiveObjects: 1.561833 ms CreateObjectMapping: 0.545291 ms MarkObjects: 65.375250 ms  DeleteObjects: 6.591250 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 186754.265787 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Balanta scaled.fbx
+  artifactKey: Guid(8facca72cf4fe44d7bba9288e8274109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Balanta scaled.fbx using Guid(8facca72cf4fe44d7bba9288e8274109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a1d8437c2aadc81f3ccf7b3e155568') in 1.126926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Temple.fbx
+  artifactKey: Guid(9ab273be761d948c587988c03e85e156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Temple.fbx using Guid(9ab273be761d948c587988c03e85e156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b24bde6f58686433a3b8f3ae54905e0') in 0.423743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.012501 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Roman soldier.fbx
+  artifactKey: Guid(d60892f19b4124ab49dc6c3982ea57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Roman soldier.fbx using Guid(d60892f19b4124ab49dc6c3982ea57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445d08f9e0e6b581ff3f05a432a9e7c7') in 0.301351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 643.126410 seconds.
+  path: Assets/Scenes/App Designs/UI_Design/Icons/logo_h.svg
+  artifactKey: Guid(2a099b344779a4a6fb7ac7fa16526bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/UI_Design/Icons/logo_h.svg using Guid(2a099b344779a4a6fb7ac7fa16526bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf0a673e0d480c63cbdaa9838b23db7') in 0.437467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 919.740356 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Urn.png
+  artifactKey: Guid(2ee5cd79778c940418d79bd12da1d26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Urn.png using Guid(2ee5cd79778c940418d79bd12da1d26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56dc2ba13177e9bf307d724596e14bd9') in 1.084305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 142.788428 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Roman soldier.fbx
+  artifactKey: Guid(d60892f19b4124ab49dc6c3982ea57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Roman soldier.fbx using Guid(d60892f19b4124ab49dc6c3982ea57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212400e12eb23e20d1eadf8f5f54f878') in 1.071370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Scenes/App Designs/3D_History/roman soldier01.jpg
+  artifactKey: Guid(ef2eb20c6aa9d41068803f5fdc6d0cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/roman soldier01.jpg using Guid(ef2eb20c6aa9d41068803f5fdc6d0cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf2f99f6af319607a32cb8ac54a3834') in 0.119958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 55.100372 seconds.
+  path: Assets/Scenes/App Designs/3D_History/temple base.png
+  artifactKey: Guid(cf63bdd60d45a4ef5a347278588c2896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/temple base.png using Guid(cf63bdd60d45a4ef5a347278588c2896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b1cb2127fbb13c7ad1f1665152ec77') in 1.099641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/Scenes/App Designs/3D_History/temple under roof.png
+  artifactKey: Guid(c2ee906c704784bf29085983e76f4536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/temple under roof.png using Guid(c2ee906c704784bf29085983e76f4536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0273140b8067ad543e994b9cfa2bc3') in 0.186586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001749 seconds.
+  path: Assets/Scenes/App Designs/3D_History/temple columns.png
+  artifactKey: Guid(409191756061344bfb15ce16f70af56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/temple columns.png using Guid(409191756061344bfb15ce16f70af56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9ee90b60e1a4ac0232dc21a9a0dec8') in 0.038114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/Scenes/App Designs/3D_History/temple roof.png
+  artifactKey: Guid(3916ade93ad6343489dce10df0409d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/temple roof.png using Guid(3916ade93ad6343489dce10df0409d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1b17929dc7b352f5a0d768f145829b') in 0.017395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 176.231699 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Coins.fbx
+  artifactKey: Guid(45209eb766b9645b0b5a57067c0007ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Coins.fbx using Guid(45209eb766b9645b0b5a57067c0007ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3239840d70734300e5cd81a01222741') in 0.372291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 538.906093 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Antarctica.png
+  artifactKey: Guid(e17c52572dac94d46b007e2c43743a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Antarctica.png using Guid(e17c52572dac94d46b007e2c43743a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6481eb262c4ba2c6e58ed6e5a7098aab') in 0.775432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004186 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Antarctica1.fbx
+  artifactKey: Guid(2807da595a6804c4d9d58b19f9cf515e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Antarctica1.fbx using Guid(2807da595a6804c4d9d58b19f9cf515e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f7ab7174a61668d977a5c520d2cf73') in 0.982240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 141.436605 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Materials/Antarctica.mat
+  artifactKey: Guid(f0dc3ad8ea9144bcaa9a816925f58303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Materials/Antarctica.mat using Guid(f0dc3ad8ea9144bcaa9a816925f58303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e78f6498253b8dc82aa018c16fae2c') in 0.552153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.366249 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Materials/Coin.001.mat
+  artifactKey: Guid(562a0bc9459a14e17af0131dd49a761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Materials/Coin.001.mat using Guid(562a0bc9459a14e17af0131dd49a761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1196a229b66ec24102db0fa8f690938a') in 0.044808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Materials/temple base.mat
+  artifactKey: Guid(66ee8b3cef5b74078b89adc905fe8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Materials/temple base.mat using Guid(66ee8b3cef5b74078b89adc905fe8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90e00e3250663c291c50b411e09d389') in 0.023885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Materials/temple roof.mat
+  artifactKey: Guid(79227898f658e43409f5d17704f64cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Materials/temple roof.mat using Guid(79227898f658e43409f5d17704f64cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08faad03718fb9d4bbfcb40f3361336f') in 0.043070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Materials/Urn.mat
+  artifactKey: Guid(cda3d20819c4042c59fb307f02465185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Materials/Urn.mat using Guid(cda3d20819c4042c59fb307f02465185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913da5736b2a1a968370519d5bc0891e') in 0.033753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 503.690056 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Papyrus script1.png
+  artifactKey: Guid(51b6265a0bb02482ba5b100f87db01d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Papyrus script1.png using Guid(51b6265a0bb02482ba5b100f87db01d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3ce21244ce3aba89644b3019818fb8') in 0.593709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Scroll.fbx
+  artifactKey: Guid(7ff1cd6ba70cd4e49bd0d05b31563a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Scroll.fbx using Guid(7ff1cd6ba70cd4e49bd0d05b31563a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a635d360653c62da3c4ad542a661554d') in 0.794699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 29.747489 seconds.
+  path: Assets/Scenes/App Designs/3D_History/Materials/Papyrus script1.mat
+  artifactKey: Guid(edff54af47ceb417eb122ab457f5e820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_History/Materials/Papyrus script1.mat using Guid(edff54af47ceb417eb122ab457f5e820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee79f189741b5b2009f9aed5c16ba92') in 0.124009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x3467c7000 may have been prematurely finalized
+- Loaded All Assemblies, in  2.161 seconds
+Refreshing native plugins compatible for Editor in 14.52 ms, found 7 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  4.322 seconds
+Domain Reload Profiling: 6490ms
+	BeginReloadAssembly (1067ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (116ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (467ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (877ms)
+		LoadAssemblies (978ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (40ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (73ms)
+	FinalizeReload (4323ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1749ms)
+			LogAssemblyErrors (6ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (243ms)
+			ProcessInitializeOnLoadAttributes (1259ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 29.05 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 24.72 ms.
+Unloading 6692 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.6 MB). Loaded Objects now: 7695.
+Memory consumption went from 262.6 MB to 259.0 MB.
+Total: 35.036125 ms (FindLiveObjects: 2.074917 ms CreateObjectMapping: 0.730459 ms MarkObjects: 23.968209 ms  DeleteObjects: 8.258166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
