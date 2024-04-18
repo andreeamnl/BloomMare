@@ -1,0 +1,651 @@
+Unity Editor version:    2022.3.21f1 (bf09ca542b87)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.4 (Build 22F66)
+Darwin version:          22.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/anavizitiv/Documents/GitHub/BloomMare/BloomMare
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54076
+Successfully changed project path to: /Users/anavizitiv/Documents/GitHub/BloomMare/BloomMare
+/Users/anavizitiv/Documents/GitHub/BloomMare/BloomMare
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8546016768] Host "[IP] 10.207.93.132 [Port] 0 [Flags] 2 [Guid] 1066603779 [EditorId] 1066603779 [Version] 1048832 [Id] OSXEditor(0,Anas-MacBook-Air-5.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8546016768] Host "[IP] 10.207.93.132 [Port] 0 [Flags] 2 [Guid] 1066603779 [EditorId] 1066603779 [Version] 1048832 [Id] OSXEditor(0,Anas-MacBook-Air-5.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 35.60 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 66.37 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/anavizitiv/Documents/GitHub/BloomMare/BloomMare/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56662
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.009534 seconds.
+- Loaded All Assemblies, in  0.290 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for AppleTV target not found
+objc[77662]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/AppleTVSupport/arm64/UnityEditor.iOS.Native.dylib (0x144c7c5d8) and /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x144ca45d8). One of the two will be used. Which one is undefined.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+2024-04-18 05:55:26.796 Unity[77662:18561043] [XcodeApplications] Failed to read NSDictionary from path /Contents/Info.plist
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 233 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 888ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (598ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (553ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (432ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.905 seconds
+Refreshing native plugins compatible for Editor in 7.25 ms, found 7 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+2024-04-18 05:55:30.867 Unity[77662:18561043] [XcodeApplications] Failed to read NSDictionary from path /Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.766 seconds
+Domain Reload Profiling: 1676ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (670ms)
+		LoadAssemblies (489ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (767ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (617ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.29 seconds
+Refreshing native plugins compatible for Editor in 5.59 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 5.92 ms.
+Unloading 6880 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 181 unused Assets / (6.1 MB). Loaded Objects now: 7575.
+Memory consumption went from 288.1 MB to 281.9 MB.
+Total: 10.732417 ms (FindLiveObjects: 1.873417 ms CreateObjectMapping: 0.246916 ms MarkObjects: 5.568500 ms  DeleteObjects: 3.042917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1332664.820340 seconds.
+  path: Assets/Scenes/App Designs/Scenes/Geography/ScaneazaBalena.unity
+  artifactKey: Guid(11a98189199444b38a5dd1bf1281f4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/Scenes/Geography/ScaneazaBalena.unity using Guid(11a98189199444b38a5dd1bf1281f4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c55f32cea06f2255e8c5afe5de89c8') in 0.002586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2ca787000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.820 seconds
+Refreshing native plugins compatible for Editor in 7.60 ms, found 7 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+2024-04-18 06:50:08.095 Unity[77662:18561043] [XcodeApplications] Failed to read NSDictionary from path /Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.239 seconds
+Domain Reload Profiling: 3060ms
+	BeginReloadAssembly (381ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (135ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (435ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (652ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (181ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.43 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 7.00 ms.
+Unloading 6720 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 140 unused Assets / (6.2 MB). Loaded Objects now: 7580.
+Memory consumption went from 269.9 MB to 263.7 MB.
+Total: 11.930458 ms (FindLiveObjects: 0.604208 ms CreateObjectMapping: 0.163166 ms MarkObjects: 6.835584 ms  DeleteObjects: 4.327166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x292193000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.471 seconds
+Refreshing native plugins compatible for Editor in 3.41 ms, found 7 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+2024-04-18 06:51:59.896 Unity[77662:18561043] [XcodeApplications] Failed to read NSDictionary from path /Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.733 seconds
+Domain Reload Profiling: 2205ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1733ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (646ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (475ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.59 ms, found 7 plugins.
+Preloading 4 native plugins for Editor in 4.82 ms.
+Unloading 6720 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 140 unused Assets / (6.1 MB). Loaded Objects now: 7585.
+Memory consumption went from 279.1 MB to 273.0 MB.
+Total: 20.776125 ms (FindLiveObjects: 0.514875 ms CreateObjectMapping: 0.119667 ms MarkObjects: 14.303334 ms  DeleteObjects: 5.837500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5663.174665 seconds.
+  path: Assets/Scenes/App Designs/UI_Design/Fundaluri/3D_Previews/Scroll + rings.png
+  artifactKey: Guid(67ca187fccc93433781c49b2225d8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/UI_Design/Fundaluri/3D_Previews/Scroll + rings.png using Guid(67ca187fccc93433781c49b2225d8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38aa24e77c85e67d1514a7f9ed92210') in 0.922480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 285.467389 seconds.
+  path: Assets/TextMesh Pro/Fonts/Satoshi-Regular.otf
+  artifactKey: Guid(60253420686044c6eb1f4d6f25a05340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Satoshi-Regular.otf using Guid(60253420686044c6eb1f4d6f25a05340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3b5243696c0a2e1dc45d3c58baa6dd') in 1.039712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 7.535299 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/coolvetica/coolvetica condensed rg.otf
+  artifactKey: Guid(5d79435110a354558b893d4610b19e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/coolvetica/coolvetica condensed rg.otf using Guid(5d79435110a354558b893d4610b19e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794d1492b9f9ed30595091b36a038b71') in 0.083448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/coolvetica/coolvetica rg.otf
+  artifactKey: Guid(bab755b282a1a4e5eaef6cc9385f75f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/coolvetica/coolvetica rg.otf using Guid(bab755b282a1a4e5eaef6cc9385f75f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408c75b1bd51af3b4630aa084a01cc72') in 0.012251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.031987 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-100-thin-italic.otf
+  artifactKey: Guid(abfd2a373cc8a49ac88d6d300bb526c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-100-thin-italic.otf using Guid(abfd2a373cc8a49ac88d6d300bb526c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d78a0b24b876a875d9bacc36620978') in 0.021393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-alt-200-extralight-italic.otf
+  artifactKey: Guid(21c0d13e7828941b9b8aa79827072727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-alt-200-extralight-italic.otf using Guid(21c0d13e7828941b9b8aa79827072727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5d2cc4e55e0f3d21894c9bd8cd3fe5') in 0.025421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-200-extralight.otf
+  artifactKey: Guid(f04005ebc1b3c41da99de4b5742085a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-200-extralight.otf using Guid(f04005ebc1b3c41da99de4b5742085a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f338a8c5931d1878ded67367076d2e') in 0.029858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-700-bold-italic.otf
+  artifactKey: Guid(544110649ac5143bb9783b10eff5740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-700-bold-italic.otf using Guid(544110649ac5143bb9783b10eff5740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb69dbf745569d93c4916ac400277968') in 0.007742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-200-extralight-italic.otf
+  artifactKey: Guid(46421b877a54b46d699cf8df3f9583e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-200-extralight-italic.otf using Guid(46421b877a54b46d699cf8df3f9583e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe89db984332d94a389efc044cd61c7') in 0.009439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-alt-100-thin-italic.otf
+  artifactKey: Guid(8353f61b48fa042b59c1af134021d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-alt-100-thin-italic.otf using Guid(8353f61b48fa042b59c1af134021d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d937b9d889f7d7b39969a5e8a2e5bf') in 0.010073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-900-black.otf
+  artifactKey: Guid(36e8f504f4c1a40acb6cdad31cdda5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-900-black.otf using Guid(36e8f504f4c1a40acb6cdad31cdda5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a4dfebf93500c82f687a1e57a398c6') in 0.008637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-300-light.otf
+  artifactKey: Guid(8f4e381aaf9b3482981a0950332850c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-300-light.otf using Guid(8f4e381aaf9b3482981a0950332850c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f41b4d7912981e3f072627bb3ef9005') in 0.010493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-600-semibold.otf
+  artifactKey: Guid(decbbe89bfde446739c3882f5da3ea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-600-semibold.otf using Guid(decbbe89bfde446739c3882f5da3ea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4387811a89974dd56dbb83fc0d6e02ac') in 0.017896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-800-extrabold-italic.otf
+  artifactKey: Guid(fd004e3acc5bd4af9a627d0e844e01c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Demo_Fonts/Fontspring-DEMO-artegra_sans-800-extrabold-italic.otf using Guid(fd004e3acc5bd4af9a627d0e844e01c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b3c7b92c5e7e600199919f36ce3e51') in 0.008311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.783072 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbd30f65a1c668c3eea65972e290c1d') in 0.345793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 26.783274 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Balena scaled.fbx
+  artifactKey: Guid(cc910dfec62d34be6a92ca6a25e15d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Balena scaled.fbx using Guid(cc910dfec62d34be6a92ca6a25e15d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe84adcb6bdd112a6db2cd1c2c16d5b') in 0.311811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Whale.fbx
+  artifactKey: Guid(0adfba12f645641bb845e5599948fedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Whale.fbx using Guid(0adfba12f645641bb845e5599948fedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36083f354627e40b09c78ceefec09bff') in 0.067863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/mare assets7.fbx
+  artifactKey: Guid(1351b23f0154047f1a25bea7ef0d4b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/mare assets7.fbx using Guid(1351b23f0154047f1a25bea7ef0d4b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705afeaca6d055f12097749e24c0d49c') in 0.043442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Orca.fbx
+  artifactKey: Guid(d62d4f1ff7c5c4918806e24a146b7220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Orca.fbx using Guid(d62d4f1ff7c5c4918806e24a146b7220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dcbdc3128416dc76b879091fba570c') in 0.048808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Orca scaled.fbx
+  artifactKey: Guid(a81fe615d21c3448182f4d03973f7229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Orca scaled.fbx using Guid(a81fe615d21c3448182f4d03973f7229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70e715c729af32799bc533a710c0adf') in 0.098027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Foca.fbx
+  artifactKey: Guid(5621c17631b094464ae3bf74fd820ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Foca.fbx using Guid(5621c17631b094464ae3bf74fd820ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e26c8f9427a96b8b8056b3739a9446') in 0.048921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Pinguin scaled.fbx
+  artifactKey: Guid(bb8dad80c3913454495f9a9f375ff512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Pinguin scaled.fbx using Guid(bb8dad80c3913454495f9a9f375ff512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2763e98d99ee54e7ad4ba97e0d3a3cfc') in 0.058403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Pinguin.fbx
+  artifactKey: Guid(1e9470d59b35a46c98d03dc7bcefa9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Pinguin.fbx using Guid(1e9470d59b35a46c98d03dc7bcefa9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d500a5fe7fda61eef8738aa1fca9c23') in 0.050850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Vulpe scaled.fbx
+  artifactKey: Guid(99b6a2e30f7874c0f87446ea26b6c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Vulpe scaled.fbx using Guid(99b6a2e30f7874c0f87446ea26b6c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5771738e75b3c076666d9b4283f0ac73') in 0.049013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/mare assets10.fbx
+  artifactKey: Guid(efc9e56aea5164a39bf71548ff8534e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/mare assets10.fbx using Guid(efc9e56aea5164a39bf71548ff8534e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b7af083f3e47fa1ae721a0a5254d22') in 0.037553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Urs scaled.fbx
+  artifactKey: Guid(833ea431653f5432281ec76206ae87f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Urs scaled.fbx using Guid(833ea431653f5432281ec76206ae87f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a0eb3f28ab748a27f6fc1950bcce5b') in 0.040385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/mare assets11.fbx
+  artifactKey: Guid(1488077090a8d49408953a6da374f7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/mare assets11.fbx using Guid(1488077090a8d49408953a6da374f7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40a15db31f9b949e3f5c7d30b799ddd') in 0.066630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Polar bear.fbx
+  artifactKey: Guid(cf5c7555456324507b4e115f3f57e571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Polar bear.fbx using Guid(cf5c7555456324507b4e115f3f57e571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aae2fccb6505c95baecd33a46fa2570') in 0.064985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/mare assets8.fbx
+  artifactKey: Guid(2147f9928276f407287ba8256d47b4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/mare assets8.fbx using Guid(2147f9928276f407287ba8256d47b4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2edb6bed7b80fd055be369ae87d95b') in 0.030511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/Foca scaled.fbx
+  artifactKey: Guid(0a5378ed1acd14c8eaa9ab6ccdc6665c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/Foca scaled.fbx using Guid(0a5378ed1acd14c8eaa9ab6ccdc6665c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9968b0d6995fff3aa7e72720b54e520a') in 0.038391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/mare assets13.fbx
+  artifactKey: Guid(629a6f052441b4fd79dc25ac36759629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/mare assets13.fbx using Guid(629a6f052441b4fd79dc25ac36759629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88d7d03aa1e251bfc26485e958800ab') in 0.044875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/App Designs/3D_Geograpfie/FOX.fbx
+  artifactKey: Guid(87294f98bb51545baba1ba1e47854801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/App Designs/3D_Geograpfie/FOX.fbx using Guid(87294f98bb51545baba1ba1e47854801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15016eeefc4a9e9d945825dfe2262936') in 0.057145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
