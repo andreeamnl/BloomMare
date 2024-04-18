@@ -93,13 +93,13 @@ EditorBuildSettings:
     path: Assets/Scenes/App Designs/Scenes/Matematica/Maths.unity
     guid: 345dc07d1e597478fbbb75f3b10bb43f
   - enabled: 1
-    path: Assets/Scenes/App Designs/Scenes/History/ScaneazaApeductRoman.unity
+    path: Assets/Scenes/App Designs/Scenes/History/ScaneazaArmataReligia.unity
     guid: b7e4daa9ddfa340008b1c0ef945d9d4e
   - enabled: 1
     path: Assets/Scenes/App Designs/Scenes/History/ScaneazaCoifulDacic.unity
     guid: a238874ba98504622a8465b824fb6c3e
   - enabled: 1
-    path: Assets/Scenes/App Designs/Scenes/History/ScaneazaFactoriiRomanizarii.unity
+    path: Assets/Scenes/App Designs/Scenes/History/ScaneazaLimbaLegislatia.unity
     guid: 4f7c926ca4e1145f79cbee99c222c594
   - enabled: 1
     path: Assets/Scenes/App Designs/Scenes/History/ScaneazaScut.unity
